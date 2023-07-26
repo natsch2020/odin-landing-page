@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+}
+
+
+
+
+
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 150px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.header-links {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.front {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.front-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    flex: 0 0 500px;
+}
+
+.front-top {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.front-middle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.front-button {
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 8px 24px;
+}
+
+.front-images {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Stitch-with-guitar {
+    width: auto;
+    height: 300px;
+}
+
+.Gantu {
+    width: auto;
+    height: 200px;
+}
+
+
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px;
+}
+
+.info-top {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-first, .info-second, .info-third, .info-fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.info-image {
+    width: auto;
+    height: 200px;
+}
+
+.info-text {
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-source {
+    color: #1F2937;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-left: 15%;
+}
+
+
+
+
+
+
+.action {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.action-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 24px 64px;
+    flex-basis: 43%;
+    border: none;
+    border-radius: 8px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.action-text-top {
+    font-size: 28px;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.action-text-bottom {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.action-button {
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-text {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: 600;
+}
